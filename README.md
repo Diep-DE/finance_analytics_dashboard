@@ -71,7 +71,7 @@ Below the headline cards, every P&L line is shown against Prior Month, month-ove
 
 **The bridges: what actually moved EBIT and Gross Profit versus Budget?**
 
-Two waterfall charts decompose the variance instead of only stating it. The EBIT bSIhowing which line items pushed the number up and which pulled it down. The Gross Profit bridge splits the same variance into a revenue effect (0.7M) and a margin effect (0.1M–0.2M), separating "we sold more" from "we sold more profitably."
+Two waterfall charts decompose the variance instead of only stating it. The EBIT bSI bridge walks from the Budget baseline through Revenue, COGS, Personnel, Logistics, Marketing, IT, Administration, Depreciation and Other Opex to the Actual total — showing which line items pushed the number up and which pulled it down. The Gross Profit bridge splits the same variance into a revenue effect (0.7M) and a margin effect (0.1M–0.2M), separating "we sold more" from "we sold more profitably."
 
 **The product chart: is margin distributed the same way as revenue?**
 
@@ -83,7 +83,7 @@ A combination chart compares Gross Profit and Revenue (bars) against Gross Margi
 
 ![P&L Analysis page — full-year Revenue and EBIT bSI outlook, revenue by product and by country, the Product Portfolio Matrix, and operating expenses versus budget by cost center](screenshots/02-pnl-analysis.png)
 
-Two charts blend Actual months with Forecast months into one continuous line for Revenue and EBIT bSI, plotted against the same months last year (PY). The blending is what makes a partial year readable as a full-year outlook: once Actual d bridge walks from the Budget baseline through Revenue, COGS, Personnel, Logistics, Marketing, IT, Administration, Depreciation and Other Opex to the Actual total — sata stops, Forecast picks up the remaining months automatically, so the chart never shows a gap.
+Two charts blend Actual months with Forecast months into one continuous line for Revenue and EBIT bSI, plotted against the same months last year (PY). The blending is what makes a partial year readable as a full-year outlook: once Actual data stops, Forecast picks up the remaining months automatically, so the chart never shows a gap.
 
 The harder modeling problem sits behind this chart, not on it: Forecast only fills months Actual hasn't reached yet, so summing Actual and Forecast directly is safe. Budget, elsewhere on the report, exists for all twelve months in parallel with Actual — so any Actual+Budget blended view instead needs an explicit "use Actual where it exists, otherwise Budget" rule, or it would double-count.
 
