@@ -61,7 +61,7 @@ The report runs on a **sample financial-controlling dataset**, structured the wa
 
 ### 1. Executive Overview — Is performance on track this month?
 
-![Executive Overview page — KPI tiles for Revenue, Gross Profit, Gross Margin and EBIT bSI, budget-variance bridges, and a financial summary table](screenshots/01-executive-overview.png)
+![Executive Overview page — KPI tiles for Revenue, Gross Profit, Gross Margin and EBIT bSI, budget-variance bridges, and a financial summary table](01-executive-overview.png)
 
 The top row compares the period against Budget on four measures: Revenue (2M, +289.3K vs Budget), Gross Profit (1M, +356.8K), Gross Margin (55.3%, +12.8pp) and EBIT bSI (294K, +354.8K). Each tile carries a small trend line so a favorable variance can be read alongside the direction it's been moving, not just its current value.
 
@@ -81,7 +81,7 @@ A combination chart compares Gross Profit and Revenue (bars) against Gross Margi
 
 ### 2. Full-Year Outlook (FYFC) — Where is the year heading, not just where has it been?
 
-![P&L Analysis page — full-year Revenue and EBIT bSI outlook, revenue by product and by country, the Product Portfolio Matrix, and operating expenses versus budget by cost center](screenshots/02-pnl-analysis.png)
+![P&L Analysis page — full-year Revenue and EBIT bSI outlook, revenue by product and by country, the Product Portfolio Matrix, and operating expenses versus budget by cost center](02-pnl-analysis.png)
 
 Two charts blend Actual months with Forecast months into one continuous line for Revenue and EBIT bSI, plotted against the same months last year (PY). The blending is what makes a partial year readable as a full-year outlook: once Actual data stops, Forecast picks up the remaining months automatically, so the chart never shows a gap.
 
@@ -99,7 +99,7 @@ Neither chart says whether that concentration is a risk or simply how the busine
 
 ### 4. Product Portfolio Matrix — Which products are compounding growth with better margins?
 
-![Product Portfolio Matrix — five products plotted by 3-month revenue growth versus 3-month gross margin change, bubble size by revenue, color-coded by trend signal](screenshots/03-product-portfolio-matrix.png)
+![Product Portfolio Matrix — five products plotted by 3-month revenue growth versus 3-month gross margin change, bubble size by revenue, color-coded by trend signal](03-product-portfolio-matrix.png)
 
 Every product is plotted on its own trend, not a single period: 3-month revenue growth on the x-axis against 3-month gross margin change on the y-axis, bubble size scaled to revenue. A product only counts as trending "up" or "down" if it moved in the same direction for two consecutive months against the month before — one strong month isn't enough to call a trend, which keeps the signal from reacting to noise.
 
